@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+header h1 {
+    color: darkred;
+    font-size: 2em;
+}
+
+nav {
+    background-color: lime;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.quienes-somos {
+    background-color: orange;
+}
+
+.quienes-somos h2 {
+    color: darkred;
+    font-size: 1.8em;
+}
+
+.mapa, .video {
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: yellow;
+    color: darkblue;
+    text-align: center;
+}
